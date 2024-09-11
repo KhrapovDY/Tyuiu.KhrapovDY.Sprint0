@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tyuiu.KhrapovD.Sprint0.Task1.V0
+namespace Tyuiu.KhrapovDY.Sprint0.Task1.V0
 {
     class Program
     {
