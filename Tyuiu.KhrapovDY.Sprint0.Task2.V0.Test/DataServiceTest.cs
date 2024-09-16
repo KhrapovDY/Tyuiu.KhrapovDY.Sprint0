@@ -8,12 +8,12 @@ namespace Tyuiu.KhrapovDY.Sprint0.Task2.V0.Test
         [TestMethod]
         public void CheckGetMessageValid()
         {
-            // Область создания методов тестирования, методов из библиотеки
-            var name = "Даниил";
+            // РћР±Р»Р°СЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ РјРµС‚РѕРґРѕРІ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, РјРµС‚РѕРґРѕРІ РёР· Р±РёР±Р»РёРѕС‚РµРєРё
+            var name = "Р”Р°РЅРёРёР»";
             var res = DataService.GetMessage(name);
 
-            // Вызываем класс Assert и метод AreEqual
-            Assert.AreEqual("Привет..., Даниил", res);
+            // Р’С‹Р·С‹РІР°РµРј РєР»Р°СЃСЃ Assert Рё РјРµС‚РѕРґ AreEqual
+            Assert.AreEqual("РџСЂРёРІРµС‚..., Р”Р°РЅРёРёР»", res);
         }
     }
 }
